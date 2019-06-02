@@ -5,11 +5,11 @@ import (
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 )
-type DbWorker struct {
-	username string
-	password string
-	dbName string
-}
+//type DbWorker struct {
+//	username string
+//	password string
+//	dbName string
+//}
 func main()  {
 	dbw := DbWorker{
 		username:"root",
